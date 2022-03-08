@@ -1,2 +1,3 @@
 Portafolio creado para demostracion de aprendizaje
-# Portafolio-white![whitePortafolio](https://user-images.githubusercontent.com/91045865/157293983-b4d68bb5-3d8e-44bc-9952-8b2a85c7412b.png)
+
+![portafolio-white](https://user-images.githubusercontent.com/91045865/157294846-7e85e343-7d51-4ed1-93fb-29c15489c2b7.png)
