@@ -1,0 +1,30 @@
+.botones {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.botones .texto__a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto__i {
+    margin-left: 20px;
+}
+.servicio-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width: 350px) {
+    .botones .texto__a {
+        padding: 10px 0px;
+        font-size: 13px;
+    }
+}

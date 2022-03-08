@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="preload" href="src/css/header.css" as="style">
+    <link rel="stylesheet" href="src/css/header.css">
+    
+    <link rel="preload" href="src/css/styles.css" as="style">
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <!-- js -->
+    <link rel="preload" href="src/js/app.js" as="script">
+
+    <link rel="shortcut icon" href="src/img/icono-white.png" type="image/x-icon">
+    <title>Portafolio De White</title>
+</head>
+<body>
+    <!-- --- HEADER ---- -->
+    <header class="header">
+        <div class="close"><i class="fas fa-times"></i></div>
+        <a href="index.html"class="header-logo header-nav__a"><h1 class="header-logo__h1"><span class="header-logo__span">W</span>hite</h1></a>
+        <nav class="header-nav">
+            <ul class="header-nav__ul">
+                <li class="header-nav__li"><a href="index.html" class="header-nav__a active"><i class="fa fa-home header-nav__i"></i> Inicio</a></li>
+                <li class="header-nav__li"><a href="src/html/sobre.html" class="header-nav__a"><i class="fa fa-user header-nav__i"></i> Sobre</a></li>
+                <li class="header-nav__li"><a href="src/html/servicios.html" class="header-nav__a"><i class="fa fa-list header-nav__i"></i> Servicios</a></li>
+                <li class="header-nav__li"><a href="src/html/portafolio.html" class="header-nav__a"><i class="fa fa-briefcase header-nav__i"></i> Portafolio</a></li>
+                <li class="header-nav__li"><a href="src/html/contacto.html" class="header-nav__a"><i class="fa fa-comments header-nav__i"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-iconos">
+            <div class="header-redes">
+                <a href="https://web.facebook.com/garena.flores.9/" target="_blank" class="header-redes__a"><i class="fab fa-facebook header-redes__i"></i></a>
+                <a href="https://www.instagram.com/martin_flores_28/" class="header-redes__a" target="_blank"><i class="fa fa-instagram header-redes__i"></i></a>
+                <a href="https://www.youtube.com/channel/UCju_sO9JlcTts9v_gMofEWw" class="header-redes__a" target="_blank"><i class="fa fa-youtube header-redes__i"></i></a>
+                <a href="https://www.instagram.com/martin_flores_28/" class="header-redes__a" target="_blank"><i class="fa fa-github header-redes__i"></i></a>
+            </div>
+            <div class="header-copy"><p>Copyright©2022 WhiteCompany</p></div>
+        </div>
+    </header>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- menu -->
+    <div class="menu">
+        <div class="menu-logo"><h2 class="menu-logo__h2"> <span class="menu-logo__span">W</span>hite</h2></div>
+        <div class="inicio-menu"><span class="inicio-menu__bar"></span></div>
+    </div>
+
+    <!-- Inicio -->
+    <section class="fondo-color">
+        <div class="inicio padding-left max-width">
+            <div class="inicio-texto">
+                <h2 class="texto__title">Hola, mi nombre es <span class="texto__span">Martin Flores</span></h2>
+                <h3 class="inicio-texto__h3">Soy, <span class="inicio-texto__aleatorio">Desarrollador Web</span></h3>
+                <p class="inicio-texto__p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, rerum amet iste 
+                    neque quaerat labore nesciunt autem veritatis ea voluptas!...
+                </p>
+                <a href="src/html/sobre.html" class="inicio-texto__a">Leer Más</a>
+            </div>
+            
+            <div class="inicio-imagen">
+                <div class="inicio-border"><img src="src/img/course-2-1.jpg" alt="imagen" class="inicio-imagen__img"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---- TEMAS ---- -->
+    <div class="temas">
+        <div class="temas-contenedor">
+            <div class="temas-iconos">
+                <button class="temas-iconos__button">
+                    <i class="fas fa-cog temas-iconos__i temas-iconos__i--cog "></i>
+                </button>
+                <button class="temas-iconos__button temas-iconos__button--position">
+                    <i class="fas fa-moon temas-iconos__i temas-iconos__i--oscuro"></i>
+                    <i class="fas fa-sun temas-iconos__i temas-iconos__i--claro"></i>
+                </button>
+            </div>
+            <div class="temas-colores">
+                <div class="temas-padding">
+                    <h6 class="temas-colores__h6">Color Tema</h6>
+                    <div class="temas-circulos">
+                        <span class="temas-circulos__span rojo"></span>
+                        <span class="temas-circulos__span naranja"></span>
+                        <span class="temas-circulos__span verde"></span>
+                        <span class="temas-circulos__span azul"></span>
+                        <span class="temas-circulos__span rosado"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="src/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/b45f192329.js" crossorigin="anonymous"></script>
+
+    <!-- texto animado -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="src/js/texto-animado.js"></script>
+</body>
+</html>
